@@ -18,10 +18,7 @@ let package = Package(
               .product(name: "FirebaseCrashlytics", package: "Firebase")
             ],
             path: "Segment-Firebase/Classes",
-            publicHeadersPath: ".",
-            cSettings: [
-                .headerSearchPath(".")
-            ]
+            publicHeadersPath: ""
         )
     ]
 )
