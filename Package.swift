@@ -19,9 +19,7 @@ let package = Package(
             ],
             path: "Segment-Firebase/Classes",
             publicHeadersPath: ".",
-            cSettings: [
-                .headerSearchPath(".")
-            ]
+            
         )
     ]
 )
